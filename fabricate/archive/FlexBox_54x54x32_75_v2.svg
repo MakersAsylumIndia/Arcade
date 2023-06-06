@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="223.72mm"
+   height="128.45mm"
+   viewBox="0.0 0.0 223.72 128.45"
+   version="1.1"
+   id="svg279"
+   sodipodi:docname="FlexBox_54x54x32_75_v2.svg"
+   inkscape:version="1.2.2 (1:1.2.2+202212051552+b0a8486541)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs283" />
+  <sodipodi:namedview
+     id="namedview281"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="0.8563329"
+     inkscape:cx="429.15553"
+     inkscape:cy="187.42711"
+     inkscape:current-layer="svg279">
+    <sodipodi:guide
+       position="0,80.449997"
+       orientation="0,1"
+       id="guide393"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="41.9,128.45"
+       orientation="-1,0"
+       id="guide395"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="33.9,128.45"
+       orientation="-1,0"
+       id="guide397"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="0,82.949997"
+       orientation="0,1"
+       id="guide399"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="0,77.949997"
+       orientation="0,1"
+       id="guide401"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="56.9,113.95"
+       orientation="1,0"
+       id="guide1093"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="17.5,128.45"
+       orientation="-1,0"
+       id="guide1095"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="25.5,128.45"
+       orientation="-1,0"
+       id="guide1097"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="103.762,53.674997"
+       orientation="0,1"
+       id="guide1827"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="108.762,41.674997"
+       orientation="0,1"
+       id="guide1831"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="88.15,128.45"
+       orientation="-1,0"
+       id="guide1833"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="98.15,63.617076"
+       orientation="-1,0"
+       id="guide1835"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+  </sodipodi:namedview>
+  <!--
+FlexBox - Box with living hinge and round corners
+
+Created with Boxes.py (https://festi.info/boxes.py)
+Creation date: 2023-05-12 08:43:35
+Command line (remove spaces between dashes): boxes FlexBox - -x=54 - -y=54 - -h=32 - -outside=0 - -radius=7.5 - -thickness=2.5 - -labels=0 - -burn=0.2
+Url: http://www.festi.info/boxes.py/FlexBox?FingerJoint_angle=90.0&FingerJoint_style=rectangular&FingerJoint_surroundingspaces=2.0&FingerJoint_bottom_lip=0.0&FingerJoint_edge_width=1.0&FingerJoint_extra_length=0.0&FingerJoint_finger=2.0&FingerJoint_play=0.0&FingerJoint_space=2.0&FingerJoint_width=1.0&Flex_stretch=1.05&Flex_connection=1.0&Flex_distance=0.5&Flex_width=5.0&x=54&y=54&h=32&outside=0&radius=7.5&latchsize=8&thickness=2.5&format=svg&tabs=0.0&qr_code=0&debug=0&labels=0&reference=100&inner_corners=loop&burn=0.2&language=en&render=2
+Url short: http://www.festi.info/boxes.py/FlexBox?x=54&y=54&h=32&outside=0&radius=7.5&thickness=2.5&labels=0&burn=0.2
+SettingsUrl: http://www.festi.info/boxes.py/FlexBox?FingerJoint_angle=90.0&FingerJoint_style=rectangular&FingerJoint_surroundingspaces=2.0&FingerJoint_bottom_lip=0.0&FingerJoint_edge_width=1.0&FingerJoint_extra_length=0.0&FingerJoint_finger=2.0&FingerJoint_play=0.0&FingerJoint_space=2.0&FingerJoint_width=1.0&Flex_stretch=1.05&Flex_connection=1.0&Flex_distance=0.5&Flex_width=5.0&x=54&y=54&h=32&outside=0&radius=7.5&latchsize=8&thickness=2.5&format=svg&tabs=0.0&qr_code=0&debug=0&labels=0&reference=100&inner_corners=loop&burn=0.2&language=en&render=2
+SettingsUrl short: http://www.festi.info/boxes.py/FlexBox?x=54&y=54&h=32&outside=0&radius=7.5&thickness=2.5&labels=0&burn=0.2
+-->
+  <title
+     id="title253">FlexBox</title>
+  <metadata
+     id="metadata255">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:title>FlexBox</dc:title>
+        <dc:date>2023-05-12 08:43:35</dc:date>
+        <dc:source>http://www.festi.info/boxes.py/FlexBox?FingerJoint_angle=90.0&amp;FingerJoint_style=rectangular&amp;FingerJoint_surroundingspaces=2.0&amp;FingerJoint_bottom_lip=0.0&amp;FingerJoint_edge_width=1.0&amp;FingerJoint_extra_length=0.0&amp;FingerJoint_finger=2.0&amp;FingerJoint_play=0.0&amp;FingerJoint_space=2.0&amp;FingerJoint_width=1.0&amp;Flex_stretch=1.05&amp;Flex_connection=1.0&amp;Flex_distance=0.5&amp;Flex_width=5.0&amp;x=54&amp;y=54&amp;h=32&amp;outside=0&amp;radius=7.5&amp;latchsize=8&amp;thickness=2.5&amp;format=svg&amp;tabs=0.0&amp;qr_code=0&amp;debug=0&amp;labels=0&amp;reference=100&amp;inner_corners=loop&amp;burn=0.2&amp;language=en&amp;render=2</dc:source>
+        <dc:source>http://www.festi.info/boxes.py/FlexBox?x=54&amp;y=54&amp;h=32&amp;outside=0&amp;radius=7.5&amp;thickness=2.5&amp;labels=0&amp;burn=0.2</dc:source>
+        <dc:description>Box with living hinge and round corners
+
+Created with Boxes.py (https://festi.info/boxes.py)
+Command line: boxes FlexBox --FingerJoint_angle=90.0 --FingerJoint_style=rectangular --FingerJoint_surroundingspaces=2.0 --FingerJoint_bottom_lip=0.0 --FingerJoint_edge_width=1.0 --FingerJoint_extra_length=0.0 --FingerJoint_finger=2.0 --FingerJoint_play=0.0 --FingerJoint_space=2.0 --FingerJoint_width=1.0 --Flex_stretch=1.05 --Flex_connection=1.0 --Flex_distance=0.5 --Flex_width=5.0 --x=54 --y=54 --h=32 --outside=0 --radius=7.5 --latchsize=8 --thickness=2.5 --format=svg --tabs=0.0 --qr_code=0 --debug=0 --labels=0 --reference=100 --inner_corners=loop --burn=0.2
+Command line short: boxes FlexBox --x=54 --y=54 --h=32 --outside=0 --radius=7.5 --thickness=2.5 --labels=0 --burn=0.2
+Url: http://www.festi.info/boxes.py/FlexBox?FingerJoint_angle=90.0&amp;FingerJoint_style=rectangular&amp;FingerJoint_surroundingspaces=2.0&amp;FingerJoint_bottom_lip=0.0&amp;FingerJoint_edge_width=1.0&amp;FingerJoint_extra_length=0.0&amp;FingerJoint_finger=2.0&amp;FingerJoint_play=0.0&amp;FingerJoint_space=2.0&amp;FingerJoint_width=1.0&amp;Flex_stretch=1.05&amp;Flex_connection=1.0&amp;Flex_distance=0.5&amp;Flex_width=5.0&amp;x=54&amp;y=54&amp;h=32&amp;outside=0&amp;radius=7.5&amp;latchsize=8&amp;thickness=2.5&amp;format=svg&amp;tabs=0.0&amp;qr_code=0&amp;debug=0&amp;labels=0&amp;reference=100&amp;inner_corners=loop&amp;burn=0.2&amp;language=en&amp;render=2
+Url short: http://www.festi.info/boxes.py/FlexBox?x=54&amp;y=54&amp;h=32&amp;outside=0&amp;radius=7.5&amp;thickness=2.5&amp;labels=0&amp;burn=0.2
+SettingsUrl: http://www.festi.info/boxes.py/FlexBox?FingerJoint_angle=90.0&amp;FingerJoint_style=rectangular&amp;FingerJoint_surroundingspaces=2.0&amp;FingerJoint_bottom_lip=0.0&amp;FingerJoint_edge_width=1.0&amp;FingerJoint_extra_length=0.0&amp;FingerJoint_finger=2.0&amp;FingerJoint_play=0.0&amp;FingerJoint_space=2.0&amp;FingerJoint_width=1.0&amp;Flex_stretch=1.05&amp;Flex_connection=1.0&amp;Flex_distance=0.5&amp;Flex_width=5.0&amp;x=54&amp;y=54&amp;h=32&amp;outside=0&amp;radius=7.5&amp;latchsize=8&amp;thickness=2.5&amp;format=svg&amp;tabs=0.0&amp;qr_code=0&amp;debug=0&amp;labels=0&amp;reference=100&amp;inner_corners=loop&amp;burn=0.2&amp;language=en&amp;render=2
+SettingsUrl short: http://www.festi.info/boxes.py/FlexBox?x=54&amp;y=54&amp;h=32&amp;outside=0&amp;radius=7.5&amp;thickness=2.5&amp;labels=0&amp;burn=0.2
+</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="p-1"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.2;stroke-dasharray:none"
+     transform="translate(-10.2,-10)">
+    <path
+       d="m 10.4,106.175 h 7 c 0.11,0 0.2,-0.09 0.2,-0.2 v -2.3 c 0,-0.2 -0.2,0 0,0 h 4.6 c 0.2,0 0,-0.2 0,0 v 2.3 c 0,0.11 0.09,0.2 0.2,0.2 h 7 11.781 7 c 0.11,0 0.2,-0.09 0.2,-0.2 v -2.3 c 0,-0.2 -0.2,0 0,0 h 4.6 c 0.2,0 0,-0.2 0,0 v 2.3 c 0,0.11 0.09,0.2 0.2,0.2 h 5 c 0.11,0 0.2,-0.09 0.2,-0.2 v -2.3 c 0,-0.2 -0.2,0 0,0 h 4.6 c 0.2,0 0,-0.2 0,0 v 2.3 c 0,0.11 0.09,0.2 0.2,0.2 h 5 c 0.11,0 0.2,-0.09 0.2,-0.2 v -2.3 c 0,-0.2 -0.2,0 0,0 h 4.6 c 0.2,0 0,-0.2 0,0 v 2.3 c 0,0.11 0.09,0.2 0.2,0.2 h 7 11.781 7 c 0.11,0 0.2,-0.09 0.2,-0.2 v -2.3 c 0,-0.2 -0.2,0 0,0 h 4.6 c 0.2,0 0,-0.2 0,0 v 2.3 c 0,0.11 0.089,0.2 0.2,0.2 h 5 c 0.11,0 0.2,-0.09 0.2,-0.2 v -2.3 c 0,-0.2 -0.2,0 0,0 h 4.6 c 0.2,0 0,-0.2 0,0 v 2.3 c 0,0.11 0.089,0.2 0.2,0.2 h 5 c 0.11,0 0.2,-0.09 0.2,-0.2 v -2.3 c 0,-0.2 -0.2,0 0,0 h 4.6 c 0.2,0 0,-0.2 0,0 v 2.3 c 0,0.11 0.089,0.2 0.2,0.2 h 7 11.781 39 11.781 c 0.11,0 0.2,-0.09 0.2,-0.2 v -2.55 c 0,-0.2 -0.2,0 0,0 h 10.1 c 0.2,0 0,-0.2 0,0 v 2.55 c 0,0.145 0.038,0.287 0.11,0.413 0.073,0.125 0.177,0.229 0.302,0.301 0.126,0.073 0.268,0.111 0.413,0.111 0.126,0 0.249,-0.033 0.358,-0.096 0.108,-0.063 0.199,-0.153 0.262,-0.262 0.062,-0.109 0.096,-0.232 0.096,-0.358 0,-0.055 0.014,-0.109 0.042,-0.157 0.028,-0.048 0.067,-0.088 0.115,-0.116 0.048,-0.028 0.103,-0.042 0.158,-0.042 0.056,0 0.11,0.014 0.158,0.042 0.048,0.028 0.088,0.068 0.115,0.116 0.028,0.048 0.043,0.102 0.043,0.157 0,0.126 0.033,0.249 0.096,0.358 0.062,0.109 0.153,0.199 0.262,0.262 0.108,0.063 0.232,0.096 0.357,0.096 0.126,0 0.249,-0.033 0.358,-0.096 0.109,-0.063 0.199,-0.153 0.262,-0.262 0.063,-0.109 0.096,-0.232 0.096,-0.358 0,-0.055 0.015,-0.109 0.042,-0.157 0.028,-0.048 0.068,-0.088 0.116,-0.116 0.048,-0.028 0.102,-0.042 0.158,-0.042 0.055,0 0.109,0.014 0.157,0.042 0.048,0.028 0.088,0.068 0.116,0.116 0.028,0.048 0.042,0.102 0.042,0.157 0,0.126 0.033,0.249 0.096,0.358 0.063,0.109 0.153,0.199 0.262,0.262 0.109,0.063 0.232,0.096 0.358,0.096 0.126,0 0.249,-0.033 0.358,-0.096 0.108,-0.063 0.199,-0.153 0.262,-0.262 0.062,-0.109 0.096,-0.232 0.096,-0.358 0,-0.055 0.014,-0.109 0.042,-0.157 0.028,-0.048 0.067,-0.088 0.115,-0.116 0.048,-0.028 0.103,-0.042 0.158,-0.042 0.056,0 0.11,0.014 0.158,0.042 0.048,0.028 0.088,0.068 0.115,0.116 0.028,0.048 0.043,0.102 0.043,0.157 0,0.126 0.033,0.249 0.096,0.358 0.062,0.109 0.153,0.199 0.262,0.262 0.108,0.063 0.232,0.096 0.357,0.096 0.126,0 0.249,-0.033 0.358,-0.096 0.109,-0.063 0.199,-0.153 0.262,-0.262 0.063,-0.109 0.096,-0.232 0.096,-0.358 0,-0.055 0.015,-0.109 0.042,-0.157 0.028,-0.048 0.068,-0.088 0.116,-0.116 0.048,-0.028 0.102,-0.042 0.158,-0.042 0.055,0 0.109,0.014 0.157,0.042 0.048,0.028 0.088,0.068 0.116,0.116 0.028,0.048 0.042,0.102 0.042,0.157 0,0.126 0.033,0.249 0.096,0.358 0.063,0.109 0.153,0.199 0.262,0.262 0.109,0.063 0.232,0.096 0.358,0.096 0.145,0 0.287,-0.038 0.412,-0.111 0.126,-0.072 0.23,-0.176 0.302,-0.301 0.073,-0.126 0.111,-0.268 0.111,-0.413 v -37 c 0,-0.145 -0.038,-0.287 -0.111,-0.412 -0.072,-0.126 -0.176,-0.23 -0.302,-0.302 -0.125,-0.073 -0.267,-0.111 -0.412,-0.111 -0.126,0 -0.249,0.033 -0.358,0.096 -0.109,0.063 -0.199,0.153 -0.262,0.262 -0.063,0.109 -0.096,0.232 -0.096,0.358 0,0.055 -0.014,0.109 -0.042,0.157 -0.028,0.048 -0.068,0.088 -0.116,0.116 -0.048,0.028 -0.102,0.042 -0.157,0.042 -0.056,0 -0.11,-0.014 -0.158,-0.042 -0.048,-0.028 -0.088,-0.068 -0.116,-0.116 -0.027,-0.048 -0.042,-0.102 -0.042,-0.157 0,-0.126 -0.033,-0.249 -0.096,-0.358 -0.063,-0.109 -0.153,-0.199 -0.262,-0.262 -0.109,-0.063 -0.232,-0.096 -0.358,-0.096 -0.125,0 -0.249,0.033 -0.357,0.096 -0.109,0.063 -0.2,0.153 -0.262,0.262 -0.063,0.109 -0.096,0.232 -0.096,0.358 0,0.055 -0.015,0.109 -0.043,0.157 -0.027,0.048 -0.067,0.088 -0.115,0.116 -0.048,0.028 -0.102,0.042 -0.158,0.042 -0.055,0 -0.11,-0.014 -0.158,-0.042 -0.048,-0.028 -0.087,-0.068 -0.115,-0.116 -0.028,-0.048 -0.042,-0.102 -0.042,-0.157 0,-0.126 -0.034,-0.249 -0.096,-0.358 -0.063,-0.109 -0.154,-0.199 -0.262,-0.262 -0.109,-0.063 -0.232,-0.096 -0.358,-0.096 -0.126,0 -0.249,0.033 -0.358,0.096 -0.109,0.063 -0.199,0.153 -0.262,0.262 -0.063,0.109 -0.096,0.232 -0.096,0.358 0,0.055 -0.014,0.109 -0.042,0.157 -0.028,0.048 -0.068,0.088 -0.116,0.116 -0.048,0.028 -0.102,0.042 -0.157,0.042 -0.056,0 -0.11,-0.014 -0.158,-0.042 -0.048,-0.028 -0.088,-0.068 -0.116,-0.116 -0.027,-0.048 -0.042,-0.102 -0.042,-0.157 0,-0.126 -0.033,-0.249 -0.096,-0.358 -0.063,-0.109 -0.153,-0.199 -0.262,-0.262 -0.109,-0.063 -0.232,-0.096 -0.358,-0.096 -0.125,0 -0.249,0.033 -0.357,0.096 -0.109,0.063 -0.2,0.153 -0.262,0.262 -0.063,0.109 -0.096,0.232 -0.096,0.358 0,0.055 -0.015,0.109 -0.043,0.157 -0.027,0.048 -0.067,0.088 -0.115,0.116 -0.048,0.028 -0.102,0.042 -0.158,0.042 -0.055,0 -0.11,-0.014 -0.158,-0.042 -0.048,-0.028 -0.087,-0.068 -0.115,-0.116 -0.028,-0.048 -0.042,-0.102 -0.042,-0.157 0,-0.126 -0.034,-0.249 -0.096,-0.358 -0.063,-0.109 -0.154,-0.199 -0.262,-0.262 -0.109,-0.063 -0.232,-0.096 -0.358,-0.096 -0.145,0 -0.287,0.038 -0.413,0.111 -0.125,0.072 -0.229,0.176 -0.302,0.301 -0.072,0.126 -0.11,0.268 -0.11,0.413 v 2.55 c 0,0.2 0.2,0 0,0 h -10.1 c -0.2,0 0,0.2 0,0 v -2.55 c 0,-0.11 -0.09,-0.2 -0.2,-0.2 h -11.781 -39 -11.781 -7 c -0.111,0 -0.2,0.09 -0.2,0.2 v 2.3 c 0,0.2 0.2,0 0,0 h -4.6 c -0.2,0 0,0.2 0,0 v -2.3 c 0,-0.11 -0.09,-0.2 -0.2,-0.2 h -5 c -0.111,0 -0.2,0.09 -0.2,0.2 v 2.3 c 0,0.2 0.2,0 0,0 h -4.6 c -0.2,0 0,0.2 0,0 v -2.3 c 0,-0.11 -0.09,-0.2 -0.2,-0.2 h -5 c -0.111,0 -0.2,0.09 -0.2,0.2 v 2.3 c 0,0.2 0.2,0 0,0 h -4.6 c -0.2,0 0,0.2 0,0 v -2.3 c 0,-0.11 -0.09,-0.2 -0.2,-0.2 h -7 -11.781 -7 c -0.11,0 -0.2,0.09 -0.2,0.2 v 2.3 c 0,0.2 0.2,0 0,0 h -4.6 c -0.2,0 0,0.2 0,0 v -2.3 c 0,-0.11 -0.09,-0.2 -0.2,-0.2 h -5 c -0.11,0 -0.2,0.09 -0.2,0.2 v 2.3 c 0,0.2 0.2,0 0,0 h -4.6 c -0.2,0 0,0.2 0,0 v -2.3 c 0,-0.11 -0.09,-0.2 -0.2,-0.2 h -5 c -0.11,0 -0.2,0.09 -0.2,0.2 v 2.3 c 0,0.2 0.2,0 0,0 h -4.6 c -0.2,0 0,0.2 0,0 v -2.3 c 0,-0.11 -0.09,-0.2 -0.2,-0.2 h -7 -11.781 -7 c -0.11,0 -0.2,0.09 -0.2,0.2 v 2.3 c 0,0.2 0.2,0 0,0 h -4.6 c -0.2,0 0,0.2 0,0 v -2.3 c 0,-0.11 -0.09,-0.2 -0.2,-0.2 h -7 c -0.11,0 -0.2,0.09 -0.2,0.2 v 37 c 0,0.11 0.09,0.2 0.2,0.2 z"
+       stroke="#000000"
+       stroke-width="0.4"
+       id="path262"
+       style="stroke-width:0.2;stroke-dasharray:none" />
+    <path
+       d="m 30.915,106.175 v -17.45 m 0,-2.5 v -17.45 m 1.25,2.5 v 32.4 m 1.25,2.5 v -17.45 m 0,-2.5 v -17.45 m 1.25,2.5 v 32.4 m 1.25,2.5 v -17.45 m 0,-2.5 v -17.45 m 1.25,2.5 v 32.4 m 1.25,2.5 v -17.45 m 0,-2.5 v -17.45 m 1.25,2.5 v 32.4"
+       stroke="#000000"
+       stroke-width="0.4"
+       id="path264"
+       style="stroke-width:0.2;stroke-dasharray:none" />
+    <path
+       d="m 81.696,106.175 v -17.45 m 0,-2.5 v -17.45 m 1.25,2.5 v 32.4 m 1.25,2.5 v -17.45 m 0,-2.5 v -17.45 m 1.25,2.5 v 32.4 m 1.25,2.5 v -17.45 m 0,-2.5 v -17.45 m 1.25,2.5 v 32.4 m 1.25,2.5 v -17.45 m 0,-2.5 v -17.45 m 1.25,2.5 v 32.4"
+       stroke="#000000"
+       stroke-width="0.4"
+       id="path266"
+       style="stroke-width:0.2;stroke-dasharray:none" />
+    <path
+       d="m 132.477,106.175 v -17.45 m 0,-2.5 v -17.45 m 1.25,2.5 v 32.4 m 1.25,2.5 v -17.45 m 0,-2.5 v -17.45 m 1.25,2.5 v 32.4 m 1.25,2.5 v -17.45 m 0,-2.5 v -17.45 m 1.25,2.5 v 32.4 m 1.25,2.5 v -17.45 m 0,-2.5 v -17.45 m 1.25,2.5 v 32.4"
+       stroke="#000000"
+       stroke-width="0.4"
+       id="path268"
+       style="stroke-width:0.2;stroke-dasharray:none" />
+    <path
+       d="m 183.258,106.175 v -17.45 m 0,-2.5 v -17.45 m 1.25,2.5 v 32.4 m 1.25,2.5 v -17.45 m 0,-2.5 v -17.45 m 1.25,2.5 v 32.4 m 1.25,2.5 v -17.45 m 0,-2.5 v -17.45 m 1.25,2.5 v 32.4 m 1.25,2.5 v -17.45 m 0,-2.5 v -17.45 m 1.25,2.5 v 32.4"
+       stroke="#000000"
+       stroke-width="0.4"
+       id="path270"
+       style="stroke-width:0.2;stroke-dasharray:none" />
+  </g>
+  <g
+     id="p-2"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.2;stroke-dasharray:none"
+     transform="translate(-10.2,-10)">
+    <path
+       d="m 20.4,64.4 h 6.8 c 0.2,0 0,-0.2 0,0 v 2.3 c 0,0.11 0.09,0.2 0.2,0.2 h 5 c 0.11,0 0.2,-0.09 0.2,-0.2 v -2.3 c 0,-0.2 -0.2,0 0,0 h 4.6 c 0.2,0 0,-0.2 0,0 v 2.3 c 0,0.11 0.09,0.2 0.2,0.2 h 5 c 0.11,0 0.2,-0.09 0.2,-0.2 v -2.3 c 0,-0.2 -0.2,0 0,0 h 4.6 c 0.2,0 0,-0.2 0,0 v 2.3 c 0,0.11 0.09,0.2 0.2,0.2 h 5 c 0.11,0 0.2,-0.09 0.2,-0.2 v -2.3 c 0,-0.2 -0.2,0 0,0 h 6.8 c 1.352,0 2.679,-0.356 3.85,-1.032 1.171,-0.675 2.143,-1.647 2.818,-2.818 0.676,-1.171 1.032,-2.498 1.032,-3.85 v -6.8 c 0,-0.2 -0.2,0 0,0 h 2.3 c 0.11,0 0.2,-0.09 0.2,-0.2 v -5 c 0,-0.11 -0.09,-0.2 -0.2,-0.2 h -2.3 c -0.2,0 0,0.2 0,0 v -4.6 c 0,-0.2 -0.2,0 0,0 h 2.3 c 0.11,0 0.2,-0.09 0.2,-0.2 v -5 c 0,-0.11 -0.09,-0.2 -0.2,-0.2 h -2.3 c -0.2,0 0,0.2 0,0 v -4.6 c 0,-0.2 -0.2,0 0,0 h 2.3 c 0.11,0 0.2,-0.09 0.2,-0.2 v -5 c 0,-0.11 -0.09,-0.2 -0.2,-0.2 h -2.3 c -0.2,0 0,0.2 0,0 v -6.8 c 0,-1.352 -0.356,-2.679 -1.032,-3.85 C 65.393,12.679 64.421,11.707 63.25,11.032 62.079,10.356 60.752,10 59.4,10 h -39 c -1.352,0 -2.679,0.356 -3.85,1.032 -1.171,0.675 -2.143,1.647 -2.818,2.818 -0.676,1.171 -1.032,2.498 -1.032,3.85 0,-0.11 0.09,-0.2 0.2,-0.2 h -2.5 c -0.11,0 -0.2,0.09 -0.2,0.2 v 10 c 0,0.11 0.09,0.2 0.2,0.2 h 2.3 c 0.2,0 0,-0.2 0,0 v 9.8 6.8 c 0,0.2 0.2,0 0,0 h -2.3 c -0.11,0 -0.2,0.09 -0.2,0.2 v 5 c 0,0.11 0.09,0.2 0.2,0.2 h 2.3 c 0.2,0 0,-0.2 0,0 v 6.8 c 0,1.352 0.356,2.679 1.032,3.85 0.675,1.171 1.647,2.143 2.818,2.818 1.171,0.676 2.498,1.032 3.85,1.032 z"
+       stroke="#000000"
+       stroke-width="0.4"
+       id="path273"
+       style="stroke-width:0.2;stroke-dasharray:none" />
+  </g>
+  <g
+     id="p-3"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.2;stroke-dasharray:none"
+     transform="translate(-10.2,-10)">
+    <path
+       d="m 120.05,64.4 h -6.8 c -0.2,0 0,-0.2 0,0 v 2.3 c 0,0.11 -0.09,0.2 -0.2,0.2 h -5 c -0.11,0 -0.2,-0.09 -0.2,-0.2 v -2.3 c 0,-0.2 0.2,0 0,0 h -4.6 c -0.2,0 0,-0.2 0,0 v 2.3 c 0,0.11 -0.09,0.2 -0.2,0.2 h -5 c -0.11,0 -0.2,-0.09 -0.2,-0.2 v -2.3 c 0,-0.2 0.2,0 0,0 h -4.6 c -0.2,0 0,-0.2 0,0 v 2.3 c 0,0.11 -0.09,0.2 -0.2,0.2 h -5 c -0.11,0 -0.2,-0.09 -0.2,-0.2 v -2.3 c 0,-0.2 0.2,0 0,0 h -6.8 C 79.698,64.4 78.371,64.044 77.2,63.368 76.029,62.693 75.057,61.721 74.382,60.55 73.706,59.379 73.35,58.052 73.35,56.7 v -6.8 c 0,-0.2 0.2,0 0,0 h -2.3 c -0.11,0 -0.2,-0.09 -0.2,-0.2 v -5 c 0,-0.11 0.09,-0.2 0.2,-0.2 h 2.3 c 0.2,0 0,0.2 0,0 v -4.6 c 0,-0.2 0.2,0 0,0 h -2.3 c -0.11,0 -0.2,-0.09 -0.2,-0.2 v -5 c 0,-0.11 0.09,-0.2 0.2,-0.2 h 2.3 c 0.2,0 0,0.2 0,0 v -4.6 c 0,-0.2 0.2,0 0,0 h -2.3 c -0.11,0 -0.2,-0.09 -0.2,-0.2 v -5 c 0,-0.11 0.09,-0.2 0.2,-0.2 h 2.3 c 0.2,0 0,0.2 0,0 v -6.8 c 0,-1.352 0.356,-2.679 1.032,-3.85 0.675,-1.171 1.647,-2.143 2.818,-2.818 C 78.371,10.356 79.698,10 81.05,10 h 39 c 1.352,0 2.679,0.356 3.85,1.032 1.171,0.675 2.143,1.647 2.818,2.818 0.676,1.171 1.032,2.498 1.032,3.85 0,-0.11 -0.09,-0.2 -0.2,-0.2 h 2.5 c 0.11,0 0.2,0.09 0.2,0.2 v 10 c 0,0.11 -0.09,0.2 -0.2,0.2 h -2.3 c -0.2,0 0,-0.2 0,0 v 9.8 6.8 c 0,0.2 -0.2,0 0,0 h 2.3 c 0.11,0 0.2,0.09 0.2,0.2 v 5 c 0,0.11 -0.09,0.2 -0.2,0.2 h -2.3 c -0.2,0 0,-0.2 0,0 v 6.8 c 0,1.352 -0.356,2.679 -1.032,3.85 -0.675,1.171 -1.647,2.143 -2.818,2.818 -1.171,0.676 -2.498,1.032 -3.85,1.032 z"
+       stroke="#000000"
+       stroke-width="0.4"
+       id="path276"
+       style="stroke-width:0.2;stroke-dasharray:none" />
+  </g>
+  <path
+     id="rect455"
+     style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke;stop-color:#000000"
+     d="m 17.5,45.5014 v 0.002 a 2.4999998,2.4999998 0 0 0 -0.0894,0 2.4999998,2.4999998 0 0 0 -2.409155,2.58383 A 2.4999998,2.4999998 0 0 0 17.5,50.5 v 0.002 h 7.999512 V 50.5 a 2.4999998,2.4999998 0 0 0 0.08165,5.1e-4 2.4999998,2.4999998 0 0 0 2.417423,-2.57607 l -5.16e-4,-0.016 a 2.4999998,2.4999998 0 0 0 -2.498556,-2.40503 v -0.002 z" />
+  <path
+     id="rect1837"
+     style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke;stop-color:#000000"
+     d="M 92.971069 69.77817 A 5.0000033 5.0000033 0 0 0 88.153276 74.774764 L 88.150175 74.774764 L 88.150175 86.775065 L 88.153276 86.775065 A 5.0000033 5.0000033 0 0 0 88.152759 86.945597 A 5.0000033 5.0000033 0 0 0 93.312651 91.772176 A 5.0000033 5.0000033 0 0 0 98.150081 86.775065 A 5.0000033 5.0000033 0 0 0 98.150081 86.749227 L 98.150081 74.774764 A 5.0000033 5.0000033 0 0 0 98.147498 74.620768 L 98.146464 74.588212 A 5.0000033 5.0000033 0 0 0 92.971069 69.77817 z " />
+</svg>
