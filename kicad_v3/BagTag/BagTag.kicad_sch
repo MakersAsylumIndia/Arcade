@@ -6,8 +6,8 @@
 
   (title_block
     (title "8x8_badge")
-    (date "2023-04-14")
-    (rev "v2")
+    (date "2023-06-19")
+    (rev "v3")
     (company "Maker's Asylum")
   )
 
@@ -5070,16 +5070,16 @@
     (property "Datasheet" "" (at 81.28 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "CLK" (uuid c47ae887-739c-41d9-bde3-e544a4a93ee2))
-    (pin "CLK" (uuid c47ae887-739c-41d9-bde3-e544a4a93ee2))
-    (pin "CS" (uuid 937963ce-7c4d-4f7e-ace3-58d0b9e6410a))
-    (pin "CS" (uuid 937963ce-7c4d-4f7e-ace3-58d0b9e6410a))
+    (pin "CLK" (uuid c47ae887-739c-41d9-bde3-e544a4a93ee5))
+    (pin "CLK" (uuid c47ae887-739c-41d9-bde3-e544a4a93ee5))
+    (pin "CS" (uuid 937963ce-7c4d-4f7e-ace3-58d0b9e6410d))
+    (pin "CS" (uuid 937963ce-7c4d-4f7e-ace3-58d0b9e6410d))
     (pin "DIN" (uuid c1701e60-9899-4c74-a28d-4083bbfc0151))
     (pin "DOUT" (uuid a17d0531-c207-41a4-8f11-921fd4b6295c))
-    (pin "GND" (uuid e23f14f8-d3be-4198-8447-18354ae67639))
-    (pin "GND" (uuid e23f14f8-d3be-4198-8447-18354ae67639))
-    (pin "VCC" (uuid fa0d5150-744a-459a-a6ad-c4788464413a))
-    (pin "VCC" (uuid fa0d5150-744a-459a-a6ad-c4788464413a))
+    (pin "GND" (uuid e23f14f8-d3be-4198-8447-18354ae6763c))
+    (pin "GND" (uuid e23f14f8-d3be-4198-8447-18354ae6763c))
+    (pin "VCC" (uuid fa0d5150-744a-459a-a6ad-c4788464413d))
+    (pin "VCC" (uuid fa0d5150-744a-459a-a6ad-c4788464413d))
     (instances
       (project "BagTag"
         (path "/ef9f949f-9dab-4c79-89e9-edb32f4b289c"
@@ -5804,16 +5804,16 @@
     (property "Datasheet" "" (at 123.19 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "CLK" (uuid 10145244-3657-4010-8ced-11ab620c650e))
-    (pin "CLK" (uuid 10145244-3657-4010-8ced-11ab620c650e))
-    (pin "CS" (uuid 8bf36927-8467-4b9e-842e-dd030c856b56))
-    (pin "CS" (uuid 8bf36927-8467-4b9e-842e-dd030c856b56))
+    (pin "CLK" (uuid 10145244-3657-4010-8ced-11ab620c6511))
+    (pin "CLK" (uuid 10145244-3657-4010-8ced-11ab620c6511))
+    (pin "CS" (uuid 8bf36927-8467-4b9e-842e-dd030c856b59))
+    (pin "CS" (uuid 8bf36927-8467-4b9e-842e-dd030c856b59))
     (pin "DIN" (uuid fe51a849-f1a7-4760-8aa9-da13b8e64ca5))
     (pin "DOUT" (uuid 2ee41d80-76a7-4838-9d7a-c108197f83d5))
-    (pin "GND" (uuid 33571cc8-2e4b-402e-909f-d76f61a1bfb4))
-    (pin "GND" (uuid 33571cc8-2e4b-402e-909f-d76f61a1bfb4))
-    (pin "VCC" (uuid 3f35df98-5668-400d-8ad4-9531c9d73e46))
-    (pin "VCC" (uuid 3f35df98-5668-400d-8ad4-9531c9d73e46))
+    (pin "GND" (uuid 33571cc8-2e4b-402e-909f-d76f61a1bfb7))
+    (pin "GND" (uuid 33571cc8-2e4b-402e-909f-d76f61a1bfb7))
+    (pin "VCC" (uuid 3f35df98-5668-400d-8ad4-9531c9d73e49))
+    (pin "VCC" (uuid 3f35df98-5668-400d-8ad4-9531c9d73e49))
     (instances
       (project "BagTag"
         (path "/ef9f949f-9dab-4c79-89e9-edb32f4b289c"
