@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "BagTag")(type "KiCad")(uri "${KIPRJMOD}/BagTag.kicad_sym")(options "")(descr ""))
-)
