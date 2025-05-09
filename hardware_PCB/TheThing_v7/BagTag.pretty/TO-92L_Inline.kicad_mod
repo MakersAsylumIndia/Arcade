@@ -1,0 +1,262 @@
+(footprint "TO-92L_Inline"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)")
+	(tags "TO-92L Inline Wide transistor")
+	(property "Reference" "Q1"
+		(at -2.286 -0.012 90)
+		(layer "F.SilkS")
+		(uuid "db021499-f80d-4364-9dce-bc92e978788f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PN2222ABU"
+		(at -3.429 -2.679 90)
+		(layer "F.Fab")
+		(uuid "d2ab47c0-a7b8-4a1c-974a-2c8a82690343")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "BagTag:TO-92L_Inline"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef96a247-55bb-4340-a09d-ab834c755cc2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.onsemi.com/pub/Collateral/KSP2222A-D.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40c3d707-537e-4b62-b23a-eaa49f449b33")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "TRANS NPN 40V 0.6A TO-92"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcd6207a-f942-48ba-9614-1c53f7d8ac31")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "KSP2222ABU"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6fe4a683-0bc9-4b18-98e9-f3607572b588")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Family" "Transistors - Bipolar (BJT) - Single"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4c2665c-cac6-4848-9ed9-c2a5b82c232d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/KSP2222ABU/KSP2222ABUFS-ND/1047387"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a49c7501-eb0a-47bb-87db-0d37222203a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "ON Semiconductor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c95d769-cf75-4817-9800-981443bcb973")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.75 1.7)
+		(end 3.1 1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4efee9b-cd36-4692-8e97-1c633c83c96b")
+	)
+	(fp_arc
+		(start -0.75 1.7)
+		(mid 1.183448 -2.579449)
+		(end 3.138611 1.690122)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c0caf06-2049-478f-ac09-e9323f3af862")
+	)
+	(fp_line
+		(start -1.55 -2.75)
+		(end -1.55 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "72ff9fc7-55e6-4a00-9b82-3daf37e6b890")
+	)
+	(fp_line
+		(start -1.55 -2.75)
+		(end 3.95 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6ed90a66-43a0-4341-be78-e19a4472de34")
+	)
+	(fp_line
+		(start 3.95 1.85)
+		(end -1.55 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f1cd0276-ddce-483a-9563-e7de98f06055")
+	)
+	(fp_line
+		(start 3.95 1.85)
+		(end 3.95 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d812e1b-c17e-4827-ae7f-8b281bbbc716")
+	)
+	(fp_line
+		(start -0.7 1.6)
+		(end 3.05 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d005b8b-0f37-47ac-8073-24fee8a668fb")
+	)
+	(fp_arc
+		(start -0.702818 1.602385)
+		(mid -1.059924 -1.043188)
+		(end 1.19 -2.48)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b120ea35-56f5-4c07-99e9-46edfbc3fa74")
+	)
+	(fp_arc
+		(start 1.19 -2.48)
+		(mid 3.437211 -1.049019)
+		(end 3.091103 1.592547)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98d94b38-bb17-474b-974d-804c0a72155a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.032 0.75 90)
+		(layer "F.Fab")
+		(uuid "05acad0f-c8d7-4b4b-867a-80ec5fe03339")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.016 1.6)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.2380952381)
+		(uuid "35de4c55-6f2a-44fc-8749-f3b8304cc878")
+	)
+	(pad "2" thru_hole oval
+		(at 1.27 0)
+		(size 1.016 1.6)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "139d7e0a-e3a5-4c06-a3a6-10e50ef68ef3")
+	)
+	(pad "3" thru_hole oval
+		(at 2.54 0)
+		(size 1.016 1.6)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3df38e4b-c1bb-4649-a4f8-8731b5de13b6")
+	)
+	(model "${KIPRJMOD}/3D_models/TO-92_Inline.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

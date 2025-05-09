@@ -1,0 +1,15 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+-0.01,-10.668,0.0,top,BZ1,PS1240P02BT,,Buzzer_12x9.5RM7.6,Buzzer_WT-1205,tht
+7.874,-13.188,90.0,top,C1,,,C_Disc_D3.0mm_W2.0mm_P2.50mm,100n,tht
+-8.382,-21.082,90.0,top,D2,,,D_DO-41_SOD81_P10.16mm_Horizontal,1N5819,tht
+3.81,-18.796,90.0,bottom,J15,,,PinSocket_1x04_P2.54mm_Vertical,HC-SR04,tht
+11.42,-2.54,90.0,bottom,J16,,,PinHeader_1x10_P2.54mm_Vertical,Conn_01x10,tht
+11.418,-10.668,-90.0,top,Q1,KSP2222ABU,,TO-92L_Inline,PN2222ABU,tht
+16.51,-1.524,0.0,top,R3,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,10k,tht
+-24.13,-1.524,0.0,top,R4,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,10k,tht
+-13.97,-16.51,90.0,top,R5,,,R_LDR_4.9x4.2mm_P2.54mm_Vertical,LDR,tht
+-16.51,-5.08,180.0,top,R6,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,10k,tht
+16.51,-5.08,0.0,top,R7,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,100E,tht
+13.97,-20.396,180.0,top,RV1,,,TRIM_601040,100k,tht
+25.4,-14.478,90.0,top,SW2,,,SWITCH_PUSH_6mm_12mm,ON,tht
+-25.4,-14.478,90.0,top,SW3,,,SWITCH_PUSH_6mm_12mm,ON,tht
