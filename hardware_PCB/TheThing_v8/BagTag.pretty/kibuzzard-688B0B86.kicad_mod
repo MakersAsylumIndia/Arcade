@@ -1,0 +1,97 @@
+(footprint "kibuzzard-688B0B86"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Generated with KiBuzzard")
+	(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiWyIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJVYnVudHVNb25vLUIiLCAiSGVpZ2h0Q3RybCI6IDAuOSwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJMaW5lU3BhY2luZ0N0cmwiOiAxLjUsICJNdWx0aUxpbmVUZXh0IjogIkQ2IiwgIlBhZGRpbmdCb3R0b21DdHJsIjogMi4wLCAiUGFkZGluZ0xlZnRDdHJsIjogMC4wLCAiUGFkZGluZ1JpZ2h0Q3RybCI6IDAuMCwgIlBhZGRpbmdUb3BDdHJsIjogMi4wLCAiV2lkdGhDdHJsIjogMi41LCAiYWR2YW5jZWRDaGVja2JveCI6IHRydWUsICJpbmxpbmVGb3JtYXRUZXh0Ym94IjogdHJ1ZSwgImxpbmVvdmVyU3R5bGVDaG9pY2UiOiAiU3F1YXJlIiwgImxpbmVvdmVyVGhpY2tuZXNzQ3RybCI6IDF9")
+	(property "Reference" "REF**"
+		(at 0 -3.51254 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dda3d758-6959-4e32-8fcb-934090bd2593")
+		(effects
+			(font
+				(size 0.001 0.001)
+			)
+		)
+	)
+	(property "Value" "G***"
+		(at 0 3.51254 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "092c8dca-d602-4e98-a6b9-588a700a08c7")
+		(effects
+			(font
+				(size 0.001 0.001)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2384a5f-a7f2-47fd-b704-70ac570de400")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8c66567-b0c9-4c95-b7f6-7de17e11fdba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_poly
+		(pts
+			(xy -0.0458 -0.005089) (xy -0.053615 0.110683) (xy -0.07706 0.207916) (xy -0.114317 0.287702) (xy -0.16357 0.351131)
+			(xy -0.224091 0.39893) (xy -0.295153 0.431826) (xy -0.375303 0.450909) (xy -0.460178 0.457059) (xy -0.460178 0.301696)
+			(xy -0.444184 0.301696) (xy -0.34168 0.278433) (xy -0.274798 0.214459) (xy -0.238449 0.117771) (xy -0.230271 0.059067)
+			(xy -0.227544 -0.005089) (xy -0.236268 -0.118498) (xy -0.266801 -0.215913) (xy -0.326414 -0.283522)
+			(xy -0.423829 -0.308966) (xy -0.45 -0.308239) (xy -0.476171 -0.304604) (xy -0.476171 0.300242) (xy -0.460178 0.301696)
+			(xy -0.460178 0.457059) (xy -0.463086 0.45727) (xy -0.556866 0.452181) (xy -0.655008 0.43546) (xy -0.655008 -0.44273)
+			(xy -0.540145 -0.460178) (xy -0.439822 -0.46454) (xy -0.354947 -0.457997) (xy -0.277706 -0.438368)
+			(xy -0.209915 -0.404746) (xy -0.153393 -0.35622) (xy -0.108138 -0.292609) (xy -0.074152 -0.213732)
+			(xy -0.052888 -0.118316) (xy -0.0458 -0.005089)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "4f15b99c-daac-4c0c-83af-718a260703e7")
+	)
+	(fp_poly
+		(pts
+			(xy 0.367124 -0.130129) (xy 0.439641 -0.124313) (xy 0.500162 -0.106866) (xy 0.58958 -0.044346) (xy 0.639742 0.047254)
+			(xy 0.655008 0.157754) (xy 0.638288 0.263893) (xy 0.586672 0.362763) (xy 0.497981 0.436187) (xy 0.439095 0.457452)
+			(xy 0.370032 0.46454) (xy 0.36567 0.46405) (xy 0.36567 0.31042) (xy 0.418013 0.29588) (xy 0.453635 0.259532)
+			(xy 0.47399 0.211551) (xy 0.480533 0.160662) (xy 0.45 0.05525) (xy 0.408199 0.027443) (xy 0.343861 0.018174)
+			(xy 0.287157 0.02399) (xy 0.239176 0.039984) (xy 0.236995 0.066155) (xy 0.236268 0.09378) (xy 0.242084 0.174475)
+			(xy 0.262439 0.243538) (xy 0.302423 0.292246) (xy 0.36567 0.31042) (xy 0.36567 0.46405) (xy 0.277221 0.45412)
+			(xy 0.200404 0.422859) (xy 0.13958 0.370759) (xy 0.095557 0.296527) (xy 0.069144 0.198869) (xy 0.060339 0.077787)
+			(xy 0.069972 -0.045436) (xy 0.098869 -0.153393) (xy 0.145578 -0.245719) (xy 0.208643 -0.322052) (xy 0.287157 -0.382027)
+			(xy 0.38021 -0.425283) (xy 0.485985 -0.451454) (xy 0.602666 -0.460178) (xy 0.612843 -0.307512) (xy 0.499435 -0.29588)
+			(xy 0.397658 -0.261712) (xy 0.316963 -0.199919) (xy 0.266801 -0.105412) (xy 0.320598 -0.123586) (xy 0.367124 -0.130129)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "099a38ab-f661-4f6e-91ff-8fc0dfafec2a")
+	)
+	(embedded_fonts no)
+)

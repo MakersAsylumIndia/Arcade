@@ -1,12 +1,12 @@
-# BagTag
-A simple badge - bag tag using Arduino Nano and 8x8 LED matrix (bi-color)
+# Arcade
+A mini Arcade designed around two custom PCBs - the main board has the Arduino Nano, 128x64 I2C OLED display, and socket headers for digital, analog and PWM GPIO's. 
 
 
-- The /fabricate folder has 3D FreeCAD model files.
-- The /kicad_vX folders contain schematic, PCB and related files.
-- The /arduino folder has the Arduino code sketches.
+- The /enclosure folder has 3D FreeCAD model files.
+- The /hardware_PCB folders contain schematic, PCB and related files.
+- The /code folder has the Arduino code sketches.
 
-![BagTag_01](/fabricate/renders/BagTag_01.png)
-![BagTag_02](/fabricate/renders/BagTag_02.png)
-![BagTag_03](/fabricate/renders/BagTag_03.png)
+![Arcade_01](/enclosure/renders/Arcade_v7_06.png)
+![Arcade_02](/enclosure/renders/Arcade_v7_07.png)
+![Arcade_03](/enclosure/renders/Arcade_v7_08.png)
 
