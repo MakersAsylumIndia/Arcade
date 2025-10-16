@@ -37,7 +37,7 @@
  */
 
 
-#define trigPin 8
+#define trigPin 6
 #define echoPin 7
 
 void setup() {

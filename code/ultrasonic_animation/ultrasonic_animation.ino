@@ -1,7 +1,7 @@
 #include <U8glib.h>
 
-#define TRIG_PIN 8
-#define ECHO_PIN 7
+#define TRIG_PIN 7
+#define ECHO_PIN 6
 
 U8GLIB_SH1106_128X64 u8g(U8G_I2C_OPT_NONE);
 

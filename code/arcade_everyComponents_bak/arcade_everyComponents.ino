@@ -7,18 +7,13 @@
 #define LDR_PIN A1
 #define TRIG_PIN 7
 #define ECHO_PIN 6
-#define MOTOR_PIN 5   // Haptic motor (PWM)
-
-bool inHapticTest = false;
-int level = 0;  // 0–4 signal bars for motor strength
 
 
 
 U8GLIB_SH1106_128X64 u8g(U8G_I2C_OPT_NONE);
 
-const char* menuItems[] = {"1. Button", "2. Buzzer", "3. LDR", "4. Pot", "5. Ultra", "6. Haptic"};
-const int totalItems = 6;
-
+const char* menuItems[] = {"1. Button", "2. Buzzer", "3. LDR", "4. Pot", "5. Ultra"};
+const int totalItems = 5;
 int selectedItem = 0;
 bool inMenu = true;
 bool inButtonTest = false;
@@ -63,11 +58,6 @@ void loop() {
         inMenu = false;
         inUltraTest = true;
       }
-      else if (selectedItem == 5) {  // 6th option (index 5)
-        inMenu = false;
-        inHapticTest = true;
-      }
-
 
     }
   }
@@ -114,57 +104,20 @@ void loop() {
     }
   }
   else if (inUltraTest) {
-    drawUltraTest();
-    if (digitalRead(BUTTON1_PIN) == HIGH && digitalRead(BUTTON2_PIN) == HIGH) {
-      delay(300);
-      while (digitalRead(BUTTON1_PIN) == HIGH || digitalRead(BUTTON2_PIN) == HIGH);
-      inMenu = true;
-      inUltraTest = false;
-    }
+  drawUltraTest();
+  if (digitalRead(BUTTON1_PIN) == HIGH && digitalRead(BUTTON2_PIN) == HIGH) {
+    delay(300);
+    while (digitalRead(BUTTON1_PIN) == HIGH || digitalRead(BUTTON2_PIN) == HIGH);
+    inMenu = true;
+    inUltraTest = false;
   }
-
-  else if (inHapticTest) {
-    drawHapticTest();
-
-    // Increase intensity
-    if (digitalRead(BUTTON2_PIN) == HIGH) {
-      level++;
-      if (level > 4) level = 4;
-    }
-
-    // Decrease intensity
-    if (digitalRead(BUTTON1_PIN) == HIGH) {
-      level--;
-      if (level < 0) level = 0;
-    }
-
-    // Map level to exact PWM values (avoids noise)
-    int pwmValue = 0;
-    switch (level) {
-      case 0: pwmValue = 0; break;
-      case 1: pwmValue = 64; break;
-      case 2: pwmValue = 128; break;
-      case 3: pwmValue = 192; break;
-      case 4: pwmValue = 255; break;
-    }
-    analogWrite(MOTOR_PIN, pwmValue);
-
-    // Exit condition (both buttons pressed)
-    if (digitalRead(BUTTON1_PIN) == HIGH && digitalRead(BUTTON2_PIN) == HIGH) {
-      delay(300);
-      while (digitalRead(BUTTON1_PIN) == HIGH || digitalRead(BUTTON2_PIN) == HIGH);
-      analogWrite(MOTOR_PIN, 0);  // Stop motor
-      inMenu = true;
-      inHapticTest = false;
-    }
-  }
-
+}
 
 
 
   delay(100);
 }
-  
+
 void updateSelection() {
   int potValue = 1023 - analogRead(POT_PIN);
   int bandSize = 1024 / totalItems;
@@ -174,15 +127,14 @@ void updateSelection() {
 
 void drawMenu() {
   u8g.setFont(u8g_font_6x10);
-  u8g.drawStr(0, 8, "Select Component:");
+  u8g.drawStr(0, 10, "Select Component:");
   for (int i = 0; i < totalItems; i++) {
     if (i == selectedItem) {
-      u8g.drawStr(0, 18 + i * 9, ">");   // adjusted spacing
+      u8g.drawStr(0, 20 + i * 10, ">");
     }
-    u8g.drawStr(10, 18 + i * 9, menuItems[i]);  // adjusted spacing
+    u8g.drawStr(10, 20 + i * 10, menuItems[i]);
   }
 }
-
 
 bool buttonPressedOnce() {
   static bool lastState = LOW;
@@ -323,42 +275,22 @@ void drawUltraTest() {
     u8g.drawLine(0, roadY, 128, roadY);
 
     // Draw car if in range
-    if (distance >= 3 && distance <= 18) {
-      // Car body
-      u8g.drawBox(carX, roadY - 8, 18, 6);           // Main body
-      u8g.drawFrame(carX + 3, roadY - 12, 10, 4);    // Roof / Windshield
-      u8g.drawLine(carX + 3, roadY - 8, carX + 3, roadY - 12); // Roof support front
-      u8g.drawLine(carX + 13, roadY - 8, carX + 13, roadY - 12); // Roof support back
+if (distance >= 3 && distance <= 18) {
+  // Car body
+  u8g.drawBox(carX, roadY - 8, 18, 6);           // Main body
+  u8g.drawFrame(carX + 3, roadY - 12, 10, 4);    // Roof / Windshield
+  u8g.drawLine(carX + 3, roadY - 8, carX + 3, roadY - 12); // Roof support front
+  u8g.drawLine(carX + 13, roadY - 8, carX + 13, roadY - 12); // Roof support back
 
-      // Wheels
-      u8g.drawDisc(carX + 4, roadY, 2);    // Front wheel
-      u8g.drawDisc(carX + 14, roadY, 2);   // Rear wheel
-    }
+  // Wheels
+  u8g.drawDisc(carX + 4, roadY, 2);    // Front wheel
+  u8g.drawDisc(carX + 14, roadY, 2);   // Rear wheel
+}
 
     // Distance at the bottom
     char buf[10];
     sprintf(buf, "%d cm", distance);
     u8g.drawStr(45, 63, buf);
 
-  } while (u8g.nextPage());
-}
-
-void drawHapticTest() {
-  u8g.firstPage();
-  do {
-    u8g.setFont(u8g_font_6x10);
-    u8g.drawStr(20, 10, "Haptic Strength");
-
-    // Draw 4 bars like signal
-    for (int i = 0; i < 4; i++) {
-      int barHeight = (i + 1) * 8;
-      int x = 40 + i * 12;
-      int y = 60 - barHeight;
-      if (i < level) {
-        u8g.drawBox(x, y, 8, barHeight);  // filled bar
-      } else {
-        u8g.drawFrame(x, y, 8, barHeight); // empty
-      }
-    }
   } while (u8g.nextPage());
 }
