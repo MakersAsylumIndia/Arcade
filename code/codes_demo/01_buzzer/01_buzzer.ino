@@ -1,25 +1,25 @@
 /*
-  Blink
+This code is part of the ARCADE project for the "Electronics and Microcontrollers" skill of INNOVATION SCHOOL at MAKERS ASYLUM
+Copyright : 2025 Maker's Asylum | makersasylum.com
+License : MIT
 
-  Turns an LED on for one second, then off for one second, repeatedly.
+Summary of what this code does:
+  Project: Buzzer Test
+  Description:
+    This simple program demonstrates basic digital output control 
+    on an Arduino board. It repeatedly turns an LED connected to 
+    digital pin 3 ON and OFF at a fixed interval, creating a blinking 
+    effect.
 
-  Most Arduinos have an on-board LED you can control. On the UNO, MEGA and ZERO
-  it is attached to digital pin 13, on MKR1000 on pin 6. LED_BUILTIN is set to
-  the correct LED pin independent of which board is used.
-  If you want to know what pin the on-board LED is connected to on your Arduino
-  model, check the Technical Specs of your board at:
-  https://www.arduino.cc/en/Main/Products
+   Hardware Setup:
+    - Buzzer connected to digital pin D3 through a NPN transistor
+    - The Buzzer is connected between +5V and the collector of the transistor
+    - Digital pin D3 connects to base of the transistor
 
-  modified 8 May 2014
-  by Scott Fitzgerald
-  modified 2 Sep 2016
-  by Arturo Guadalupi
-  modified 8 Sep 2016
-  by Colby Newman
-
-  This example code is in the public domain.
-
-  https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink
+   Operation:
+    - The Buzzer turns ON for 500 milliseconds and then OFF for 500 milliseconds.
+    - This cycle repeats continuously, confirming that the microcontroller 
+      and digital output pin are functioning correctly.
 */
 
 // the setup function runs once when you press reset or power the board
