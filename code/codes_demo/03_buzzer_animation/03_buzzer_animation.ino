@@ -1,116 +1,183 @@
-/*
-This code is part of the ARCADE project for the "Electronics and Microcontrollers" skill of INNOVATION SCHOOL at MAKERS ASYLUM
+/* 
+===============================================================================
+This code is part of the ARCADE project for the "Electronics and 
+Microcontrollers" skill of INNOVATION SCHOOL at MAKERS ASYLUM.
+
 Copyright : 2025 Maker's Asylum | makersasylum.com
 License : MIT
 
-  Project: Buzzer Test with OLED Display
-  Description:
-  This program tests a buzzer module and displays its status 
-  on a 128x64 SH1106 OLED screen. Two push buttons control 
-  the buzzer — pressing either one activates the buzzer and 
-  displays animated "sound waves" on the screen. Releasing 
-  buttons stops the buzzer and shows a muted speaker icon.
+Summary of what this code does:
+   Project: Dual-Button Buzzer with OLED Animation (Enhanced Graphics)
 
-  Hardware Setup:
-  - Display: 128x64 SH1106 OLED (I2C connection)
-  - Buttons: Connected between 5V and pins 2 & 4 with external pull-down resistors to GND
-  - Buzzer:  Connected to pin 3 (active HIGH)
- 
-  Operation:
-  - Press either button → buzzer turns ON, display shows sound waves.
-  - Release either button → buzzer turns OFF, display shows a crossed-out speaker.
-  - Loop continuously refreshes display and checks inputs with simple debouncing for stable operation.
+   PURPOSE:
+   Demonstrates the use of two push-buttons to trigger a buzzer and display 
+   animated visual feedback on an SH1106 OLED screen using U8glib. 
+   Button 1 causes one beep, and Button 2 causes two beeps. 
+   The OLED shows a speaker icon emitting animated “sound waves” that expand 
+   smoothly to simulate real audio waves.
 
-  Libraries Required:
-  - U8glib (for OLED display control)
+   HARDWARE SETUP:
+   ---------------------------------------------------------------------------
+   - BUTTON1 → Digital Pin 4 (with external pull-down resistor)
+   - BUTTON2 → Digital Pin 2 (with external pull-down resistor)
+   - BUZZER  → Digital Pin 3 (connected through NPN transistor)
+   - OLED    → SH1106 128x64 I²C display
+   ---------------------------------------------------------------------------
+
+   OPERATION:
+   - Press Button 1 → One beep + short wave animation
+   - Press Button 2 → Two beeps + longer wave animation
+   - The idle screen displays a muted speaker icon until a button is pressed.
+   =============================================================================
 */
 
+#include <U8glib.h>   // Include U8glib library for SH1106 OLED
 
-#include <U8glib.h>  // Include OLED display library
+// ---------------------------
+// Pin Definitions
+// ---------------------------
+#define BUTTON1_PIN 4   // Button 1 (triggers 1 beep)
+#define BUTTON2_PIN 2   // Button 2 (triggers 2 beeps)
+#define BUZZER_PIN 3    // Buzzer output (via transistor base)
 
-// -------------------- PIN DEFINITIONS --------------------
-#define BUTTON1_PIN 4    // Button 1 input pin
-#define BUTTON2_PIN 2    // Button 2 input pin
-#define BUZZER_PIN 3     // Buzzer output pin
-
-// -------------------- DISPLAY OBJECT --------------------
-// Create SH1106 OLED display object (I2C mode)
+// ---------------------------
+// OLED Display Object
+// ---------------------------
 U8GLIB_SH1106_128X64 u8g(U8G_I2C_OPT_NONE);
 
-// -------------------- STATE VARIABLES --------------------
-bool buzzerActive = false;          // Tracks buzzer ON/OFF state
-unsigned long lastCheck = 0;        // Last time we read button states
-const unsigned long debounceDelay = 100; // Minimum delay between reads (ms)
+// ---------------------------
+// Debounce Variables
+// ---------------------------
+unsigned long lastDebounceTime1 = 0;
+unsigned long lastDebounceTime2 = 0;
+unsigned long debounceDelay = 200;  // 200 ms debounce time
 
-// ---------------------------------------------------------------
-// SETUP: Configure pins and initialize display
-// ---------------------------------------------------------------
+bool lastButton1State = LOW;
+bool lastButton2State = LOW;
+
+// ---------------------------
+// setup() — Initialize pins and startup display
+// ---------------------------
 void setup() {
-  // Buttons use external pull-downs → LOW when not pressed, HIGH when pressed
   pinMode(BUTTON1_PIN, INPUT);
   pinMode(BUTTON2_PIN, INPUT);
-
-  // Set buzzer pin as output
   pinMode(BUZZER_PIN, OUTPUT);
-  digitalWrite(BUZZER_PIN, LOW); // Start with buzzer off
+  digitalWrite(BUZZER_PIN, LOW); // Ensure buzzer is off
+
+  // Display startup splash
+  u8g.firstPage();
+  do {
+    u8g.setFont(u8g_font_6x13B);
+    u8g.drawStr(25, 30, "Buzzer Test Ready");
+  } while (u8g.nextPage());
+  delay(1000);
 }
 
-// ---------------------------------------------------------------
-// LOOP: Periodically check buttons and update buzzer/display
-// ---------------------------------------------------------------
+// ---------------------------
+// loop() — Continuously monitor button input
+// ---------------------------
 void loop() {
-  unsigned long currentMillis = millis(); // Get current time in ms
-
-  // Only check inputs after debounce interval
-  if (currentMillis - lastCheck > debounceDelay) {
-    lastCheck = currentMillis;  // Update timestamp
-
-    // For external pull-downs: pressed = HIGH, not pressed = LOW
-    bool button1Pressed = (digitalRead(BUTTON1_PIN) == HIGH);
-    bool button2Pressed = (digitalRead(BUTTON2_PIN) == HIGH);
-
-    // Turn on buzzer if either button is pressed
-    buzzerActive = (button1Pressed || button2Pressed);
-
-    // Apply buzzer state
-    digitalWrite(BUZZER_PIN, buzzerActive ? HIGH : LOW);
-  }
-
-  // Update OLED screen based on current buzzer state
-  drawBuzzerTest(buzzerActive);
-
-  // Small delay to limit display refresh rate and reduce flicker
+  handleButtons();   // Detect and process button presses
+  drawIdleScreen();  // Default screen when idle
   delay(50);
 }
 
-// ---------------------------------------------------------------
-// FUNCTION: Draw OLED UI showing buzzer test status
-// ---------------------------------------------------------------
-void drawBuzzerTest(bool isActive) {
-  // Start a new drawing page for SH1106
+// ---------------------------
+// handleButtons() — Debounced button press detection
+// ---------------------------
+void handleButtons() {
+  bool reading1 = digitalRead(BUTTON1_PIN);
+  bool reading2 = digitalRead(BUTTON2_PIN);
+  unsigned long now = millis();
+
+  // Button 1 → One beep and short animation
+  if (reading1 != lastButton1State && (now - lastDebounceTime1) > debounceDelay) {
+    lastDebounceTime1 = now;
+    if (reading1 == HIGH) {
+      beep(1);
+      animateWaves(1);
+    }
+  }
+  lastButton1State = reading1;
+
+  // Button 2 → Two beeps and extended animation
+  if (reading2 != lastButton2State && (now - lastDebounceTime2) > debounceDelay) {
+    lastDebounceTime2 = now;
+    if (reading2 == HIGH) {
+      beep(2);
+      animateWaves(2);
+    }
+  }
+  lastButton2State = reading2;
+}
+
+// ---------------------------
+// beep(count) — generate tone using NPN transistor
+// ---------------------------
+void beep(int count) {
+  for (int i = 0; i < count; i++) {
+    digitalWrite(BUZZER_PIN, HIGH);
+    delay(100);
+    digitalWrite(BUZZER_PIN, LOW);
+    delay(100);
+  }
+}
+
+// ---------------------------
+// drawIdleScreen() — display mute speaker when no button is pressed
+// ---------------------------
+void drawIdleScreen() {
   u8g.firstPage();
-
   do {
-    // Select a small readable font
     u8g.setFont(u8g_font_6x10);
+    u8g.drawStr(15, 10, "Press Btn1 or Btn2");
 
-    // Display instructions
-    u8g.drawStr(15, 10, "Press any Button");
-
-    // Draw a simple speaker icon (triangle)
+    // Speaker body
     u8g.drawTriangle(30, 30, 30, 50, 45, 40);
 
-    // If buzzer is active, draw "sound waves"
-    if (isActive) {
-      u8g.drawCircle(50, 40, 5);
-      u8g.drawCircle(55, 40, 8);
-      u8g.drawCircle(60, 40, 11);
-    } 
-    // If inactive, draw an "X" over the speaker
-    else {
-      u8g.drawLine(48, 30, 60, 50);
-      u8g.drawLine(48, 50, 60, 30);
-    }
+    // Muted “X” over the speaker
+    u8g.drawLine(50, 30, 60, 50);
+    u8g.drawLine(50, 50, 60, 30);
+  } while (u8g.nextPage());
+}
 
-  } while (u8g.nextPage()); // Repeat until all pages drawn
+// ---------------------------
+// animateWaves(type) — Display animated expanding sound waves
+// ---------------------------
+void animateWaves(int type) {
+  // Determine animation duration and number of frames
+  int waveCount = (type == 1) ? 2 : 3;     // Fewer waves for Button 1
+  int maxRadius = (type == 1) ? 12 : 20;   // Expand farther for Button 2
+
+  // Run animation loop
+  for (int r = 0; r <= maxRadius; r += 2) { // Increment radius for smooth motion
+    u8g.firstPage();
+    do {
+      u8g.setFont(u8g_font_6x10);
+
+      // Display label for which button was pressed
+      if (type == 1)
+        u8g.drawStr(28, 10, "Btn 1: One Beep");
+      else
+        u8g.drawStr(28, 10, "Btn 2: Two Beeps");
+
+      // Draw the speaker body (fixed)
+      u8g.drawTriangle(30, 30, 30, 50, 45, 40);
+
+      // Draw expanding waves: each wave spaced evenly
+      for (int i = 0; i < waveCount; i++) {
+        int offset = i * 4; // Space between waves
+        int radius = r - offset;
+        if (radius > 0) {
+          u8g.drawCircle(50 + i, 40, radius); // Slight offset for realism
+        }
+      }
+
+    } while (u8g.nextPage());
+
+    delay(70); // Controls animation speed
+  }
+
+  // After animation ends, return to idle
+  drawIdleScreen();
 }

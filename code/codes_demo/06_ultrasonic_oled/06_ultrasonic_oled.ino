@@ -1,5 +1,7 @@
 /*
-This code is part of the ARCADE project for the "Electronics and Microcontrollers" skill of INNOVATION SCHOOL at MAKERS ASYLUM
+===============================================================================
+This code is part of the ARCADE project for the "Electronics and 
+Microcontrollers" skill of INNOVATION SCHOOL at MAKERS ASYLUM
 Copyright : 2025 Maker's Asylum | makersasylum.com
 License : MIT
 
@@ -24,10 +26,12 @@ Summary of what this code does:
     - The Arduino sends a 10 µs trigger pulse to the ultrasonic sensor.
     - The sensor returns a pulse whose duration corresponds to distance.
     - The distance is calculated and mapped to a visual brightness level.
-    - The OLED screen displays horizontal fill lines proportional to brightness (closer object = denser pattern).
+    - The OLED screen displays horizontal fill lines proportional to brightness
+      (closer object = denser pattern).
     - The process repeats continuously, updating roughly every 100 ms.
 
-   --------------------------------------------------------------- */
+===============================================================================
+*/
 
 
 #include <U8glib.h>  // Include the U8glib library for controlling SH1106 OLED displays

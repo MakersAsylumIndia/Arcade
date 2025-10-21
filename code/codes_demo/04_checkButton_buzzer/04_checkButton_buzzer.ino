@@ -1,5 +1,8 @@
 /*
-This code is part of the ARCADE project for the "Electronics and Microcontrollers" skill of INNOVATION SCHOOL at MAKERS ASYLUM
+===============================================================================
+This code is part of the ARCADE project for the "Electronics and 
+Microcontrollers" skill of INNOVATION SCHOOL at MAKERS ASYLUM
+
 Copyright : 2025 Maker's Asylum | makersasylum.com
 License : MIT
 
@@ -36,7 +39,8 @@ Summary of what this code does:
 
   Libraries Required:
     - U8glib (for SH1106 OLED graphics rendering)
-   --------------------------------------------------------------- */
+===============================================================================
+*/
 
 #include <U8glib.h>  // Include the U8glib graphics library for SH1106 OLED display support
 
