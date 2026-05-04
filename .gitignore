@@ -24,3 +24,11 @@ fp-info-cache
 # Exported BOM files
 *.xml
 
+# Backup directory
+*-backups/
+
+# JLC PCB generated files
+/jlcpcb/
+
+# Version Control History
+/.history
